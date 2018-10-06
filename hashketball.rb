@@ -130,7 +130,7 @@ def num_points_scored(playa)
       players = data[:players]
     players.collect do |x|
       if playa == x[:player]
-        return x[:number]
+        return x[:points]
   end
 end
 end
@@ -141,7 +141,7 @@ def shoe_size(playa)
     players = data[:players]
     players.collect do |x|
       if playa == x[:player]
-        return x[:points]
+        return x[:shoe]
     end
   end
  end
