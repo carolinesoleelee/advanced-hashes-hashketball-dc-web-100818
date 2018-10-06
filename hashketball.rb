@@ -133,6 +133,7 @@ def num_points_scored(playa)
        playa == x
        x
      end
+   end
 end
 end
 end
