@@ -122,13 +122,14 @@ def game_hash
         }
       ]
     }
-  }
+  } 
 end
 
 def num_points_scored(playa)
  game_hash.collect do |location, data|
     data.collet do |key, val|
-  val      
+  val
+end
 end
 end
 
