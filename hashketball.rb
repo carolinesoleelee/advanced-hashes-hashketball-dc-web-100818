@@ -132,6 +132,7 @@ def num_points_scored(playa)
        if x = x[:players][:player][:shoe]
        playa == x
        x
+     end
 end
 end
 end
