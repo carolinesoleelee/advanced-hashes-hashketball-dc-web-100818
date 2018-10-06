@@ -127,7 +127,7 @@ end
 
 def num_points_scored(playa)
  game_hash.collect do |location, data|
-    data.collet do |key, val|
+    data.collect do |key, val|
         val = playa
         val
 end
