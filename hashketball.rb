@@ -128,7 +128,10 @@ end
 def num_points_scored(playa)
  game_hash.collect do |location, data|
     data.collect do |key, val|
-        val 
+        value.collect do |x|
+       if x = x[:players][:player][:shoe]
+       playa == x
+       x
 end
 end
 end
