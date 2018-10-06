@@ -173,8 +173,7 @@ end
 
 def player_stats(playa)
   game_hash.collect do |location, data|
-  players = data[:players]
-  players.collect do |x|
+  data[:players].collect do |x|
     if playa == x[:player]
        x.delete(:player)
        return x
